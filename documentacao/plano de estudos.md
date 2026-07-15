@@ -3,7 +3,13 @@
 
 - [ ] Crie uma API REST simples (ex: cadastro de produtos) usando:
 
-- `@RestController`, `@Service`, `@Repository`, `@Configuration` com injeção via construtor
+- `@RestController`, `@Service`, `@Repository`, `@Configuration` com injeção via construtor✔️
+- tipo decorators do nestJS para controller,service
+	- `@RestController`, `@Service`, `@Repository`
+- tipo providers do nestJS
+	- instancia dependências externas
+	- `@Configuration`
+
 - `@SpringBootApplication` e autoconfiguration padrão
 - Perfis separados (`dev`, `prod`) via `application.yml`
 - Endpoints com `@RequestBody`, `@PathVariable`, `@RequestParam`
