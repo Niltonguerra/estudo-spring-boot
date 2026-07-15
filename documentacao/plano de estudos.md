@@ -1,51 +1,62 @@
-### Fundamentos
 
-- [ ]  IoC/DI: `@Component`, `@Service`, `@Repository`, `@Configuration`
-- [ ]  Injeção via construtor (não usar `@Autowired` em campo)
-- [ ]  Autoconfiguration e `@SpringBootApplication`
-- [ ]  Profiles e `application.yml`/`.properties`
-- [ ]  Escopos de bean (singleton, prototype)
-- [ ]  Build de uma API REST CRUD simples
+### 1. API REST CRUD básica
 
-### Persistência
+- [ ] Crie uma API REST simples (ex: cadastro de produtos) usando:
 
-- [ ]  Spring Data JPA: repositórios, Query Methods, `@Query`/JPQL
-- [ ]  Hibernate: lazy vs eager, resolver N+1
-- [ ]  Flyway ou Liquibase (migrations)
-- [ ]  `@Transactional`: propagação e isolamento
-- [ ]  Decisão de projeto: DTO vs expor entidade JPA
+- `@RestController`, `@Service`, `@Repository`, `@Configuration` com injeção via construtor
+- `@SpringBootApplication` e autoconfiguration padrão
+- Perfis separados (`dev`, `prod`) via `application.yml`
+- Endpoints com `@RequestBody`, `@PathVariable`, `@RequestParam`
+- Validação com `@Valid` + um validador customizado
+- Tratamento de erro centralizado com `@ControllerAdvice`
 
-### Camada web
+### 2. Persistência de verdade
 
-- [ ]  `@RestController`, `@RequestBody`, `@PathVariable`, `@RequestParam`
-- [ ]  Bean Validation (`@Valid`, `@NotNull`, validador customizado)
-- [ ]  `@ControllerAdvice` + `@ExceptionHandler` (tratamento centralizado de erro)
-- [ ]  Versionamento de API (path vs header)
+- [ ] Troque o CRUD acima (ou crie um novo) para usar banco real:
 
-### Segurança
+- Spring Data JPA com Query Methods e uma consulta `@Query`/JPQL
+- Migrations com Flyway (versionadas, sem `ddl-auto: update`)
+- Resolver um N+1 real (force o problema, depois corrija com fetch join ou `@EntityGraph`)
+- Definir DTOs de entrada/saída, nunca expor a entidade JPA
+- Usar `@Transactional` em um fluxo que precise de propagação (ex: criar pedido + baixar estoque)
 
-- [ ]  Spring Security: `SecurityFilterChain`, filtros
-- [ ]  JWT aplicado com Spring
-- [ ]  OAuth2/OIDC básico
-- [ ]  CORS e CSRF (quando desabilitar)
+### 3. Autenticação e autorização
 
-### Testes
+- [ ] Adicione segurança na API:
 
-- [ ]  JUnit 5 + Mockito
-- [ ]  `@SpringBootTest`, `@WebMvcTest`, `@DataJpaTest`
-- [ ]  Testcontainers (integração com banco real)
+- `SecurityFilterChain` com rotas públicas e protegidas
+- Login com JWT (gerar, validar, extrair claims)
+- Configurar CORS corretamente e decidir (e justificar) se desabilita CSRF
 
-### Arquitetura e distribuído (aplicando o que já sabe)
+### 4. Suíte de testes
 
-- [ ]  Estruturar projeto em Hexagonal/Clean Architecture com Spring, mantendo domínio livre de anotações do framework
-- [ ]  Spring Cloud: Config Server, Service Discovery (Eureka), Gateway
-- [ ]  Spring Kafka ou RabbitMQ + padrão Saga
-- [ ]  Resilience4j (Circuit Breaker — substituto do Hystrix, deprecado)
+- [ ] Cubra o projeto com testes:
 
-### Projeto finalizado
+- Unitários com JUnit 5 + Mockito (mockando repository/service)
+- `@WebMvcTest` pro controller, `@DataJpaTest` pro repository
+- `@SpringBootTest` de integração
+- Testcontainers subindo um Postgres real no teste
 
-- [ ]  2+ serviços se comunicando
-- [ ]  Persistência + migrations
-- [ ]  Segurança JWT
-- [ ]  Testes com Testcontainers
-- [ ]  Deploy em Kubernetes
+### 5. Reestruturar em Hexagonal/Clean
+
+- [ ] Pegue o projeto e refatore:
+
+- Separar domínio (sem anotação de framework nenhuma) de infraestrutura
+- Portas e adaptadores explícitos (ex: `ProductRepository` como porta, `ProductJpaAdapter` como adaptador)
+
+### 6. Sistema distribuído com 2 serviços
+
+- [ ] Construa um segundo serviço que conversa com o primeiro:
+
+- Comunicação assíncrona via Kafka ou RabbitMQ
+- Implementar uma Saga simples (ex: pedido → pagamento → estoque, com compensação)
+- Circuit Breaker com Resilience4j em uma chamada entre serviços
+- Config Server + Eureka (ou Gateway) coordenando os dois
+
+### 7. Projeto final publicado
+
+- [ ] Empacote os dois serviços do item 6:
+
+- Deploy dos dois em Kubernetes (manifests ou Helm)
+- Persistência com migrations, segurança JWT e testes com Testcontainers já embutidos
+- Repositório público no GitHub documentando a arquitetura
