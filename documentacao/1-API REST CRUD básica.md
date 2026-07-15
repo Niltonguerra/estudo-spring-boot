@@ -30,4 +30,10 @@ para isso você deve apagar o ``application.properties`` e criar um application.
 | `--spring.profiles.active=prod` | Ativa um perfil na hora de rodar             |
 | `@Profile("dev")`               | Ativa beans inteiros condicionalmente        |
 
-#
+## Diferenças entre `@RequestBody`, `@PathVariable`, `@RequestParam`
+
+|Anotação|De onde extrai o valor|Exemplo na URL/requisição|
+|---|---|---|
+|`@PathVariable`|Do **caminho** da URL|`/tasks/5` → pega o `5`|
+|`@RequestParam`|Da **query string**|`/tasks?done=true` → pega o `true`|
+|`@RequestBody`|Do **corpo (body)** da requisição|JSON enviado no POST/PUT|
