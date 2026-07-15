@@ -4,8 +4,8 @@
 - [ ] Crie uma API REST simples (ex: cadastro de produtos) usando:
 - `@RestController`, `@Service`, `@Repository`, `@Configuration` com injeção via construtor✔️
 - `@SpringBootApplication` e autoconfiguration padrão✔️
-- Perfis separados (`dev`, `prod`) via `application.yml`
-- Endpoints com `@RequestBody`, `@PathVariable`, `@RequestParam`
+- Perfis separados (`dev`, `prod`) via `application.yml`✔️
+- Endpoints com `@RequestBody`, `@PathVariable`, `@RequestParam`✔️
 - Validação com `@Valid` + um validador customizado
 - Tratamento de erro centralizado com `@ControllerAdvice`
 

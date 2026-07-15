@@ -19,12 +19,15 @@ faz um escaneamento geral do projeto para mapear todos os @components(@RestContr
 
 
 ## Perfis separados (`dev`, `prod`) 
-permite criar configurações de a
+permite criar configurações de ambiente personalizadas para cada ambiente
+para isso você deve apagar o ``application.properties`` e criar um application.yml e para personalizar por ambiente é só criar um novo arquivo no formato `application-{AMBIENTE}.yml`
 
-|Arquivo|Papel|
-|---|---|
-|`application.yml`|Config comum + qual perfil ativar por padrão|
-|`application-dev.yml`|Sobrescreve/adiciona config só pra dev|
-|`application-prod.yml`|Sobrescreve/adiciona config só pra prod|
-|`--spring.profiles.active=prod`|Ativa um perfil na hora de rodar|
-|`@Profile("dev")`|Ativa beans inteiros condicionalmente|
+| Arquivo                         | Papel                                        |
+| ------------------------------- | -------------------------------------------- |
+| `application.yml`               | Config comum + qual perfil ativar por padrão |
+| `application-dev.yml`           | Sobrescreve/adiciona config só pra dev       |
+| `application-prod.yml`          | Sobrescreve/adiciona config só pra prod      |
+| `--spring.profiles.active=prod` | Ativa um perfil na hora de rodar             |
+| `@Profile("dev")`               | Ativa beans inteiros condicionalmente        |
+
+#
