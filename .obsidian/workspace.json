@@ -111,8 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6d280047996c7655",
@@ -128,8 +127,8 @@
             "state": {
               "type": "oz-calendar",
               "state": {},
-              "icon": "OZCAL_ICON",
-              "title": "OZ Calendar"
+              "icon": "lucide-ghost",
+              "title": "oz-calendar"
             }
           },
           {
@@ -252,11 +251,22 @@
             "state": {
               "type": "oz-calendar",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "oz-calendar"
+            }
+          },
+          {
+            "id": "970fe7c7558c62cd",
+            "type": "leaf",
+            "state": {
+              "type": "oz-calendar",
+              "state": {},
               "icon": "OZCAL_ICON",
               "title": "OZ Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 11
       },
       {
         "id": "35e355308cd48771",
@@ -276,8 +286,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361.5,
-    "collapsed": true
+    "width": 361.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -298,11 +307,10 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-git:Open Git source control": false,
-      "omnisearch:Omnisearch": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5ab8650c0171436e",
+  "active": "2a94081eb84fb2b5",
   "lastOpenFiles": [
     "documentacao/plano de estudos.md",
     "documentacao/1-API REST CRUD básica.md",
