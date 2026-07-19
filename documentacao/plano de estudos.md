@@ -10,7 +10,7 @@
 - Tratamento de erro centralizado com `@ControllerAdvice`
 
 ### 2. Persistência de verdade
-
+ 
 - [ ] Troque o CRUD acima (ou crie um novo) para usar banco real:
 
 - Spring Data JPA com Query Methods e uma consulta `@Query`/JPQL
