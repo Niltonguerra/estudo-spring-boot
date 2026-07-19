@@ -41,7 +41,12 @@ para isso você deve apagar o ``application.properties`` e criar um application.
 
 ## funções de alguns decorator do spring
 - @RestControllerAdvice
-	- usado para tranformar em um 
+	- usado para tranformar uma classe em um handler geral para tratar erros gerais da aplicação.
+	- ele une dois outros decorator'
+		- **`@ControllerAdvice`****
+			- fala que vai ser um handler de tratamento de erros para todos os controller
+		- ``@ResponseBody``
+			- garante que o retorno vai no formato JSON e não em um formato HTML ou outro.
 
 
 
