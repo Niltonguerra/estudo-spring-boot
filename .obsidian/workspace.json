@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "documentacao/plano de estudos.md",
+                "file": "documentacao/2-API com integração ao sgbd mediante ao JPQL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "plano de estudos"
+              "title": "2-API com integração ao sgbd mediante ao JPQL"
             }
           }
         ],
@@ -329,6 +329,8 @@
   },
   "active": "a71303f507d974b1",
   "lastOpenFiles": [
+    "documentacao/0-plano de estudos.md",
+    "documentacao/2-API com integração ao sgbd mediante ao JPQL.md",
     "documentacao/1-API REST CRUD básica.md",
     "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/validation/SkuFormatValidator.java",
     "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/validation/SkuFormat.java",
@@ -340,7 +342,6 @@
     "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/entity/Product.java",
     "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/entity",
     "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/dto/ProductResponseDTO.java",
-    "documentacao/plano de estudos.md",
     "README.md",
     "notas_bibliograficas/cursos_curtos/autodidata/autodidata.md",
     "notas_bibliograficas/cursos_curtos/autodidata/Core Web Vitals/part_1_levantamento_de_informacoes.md",
