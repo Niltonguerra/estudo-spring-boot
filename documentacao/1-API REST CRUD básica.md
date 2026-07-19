@@ -47,7 +47,3 @@ para isso você deve apagar o ``application.properties`` e criar um application.
 			- fala que vai ser um handler de tratamento de erros para todos os controller
 		- ``@ResponseBody``
 			- garante que o retorno vai no formato JSON e não em um formato HTML ou outro.
-
-
-dasdasdasdasd
-sssss
