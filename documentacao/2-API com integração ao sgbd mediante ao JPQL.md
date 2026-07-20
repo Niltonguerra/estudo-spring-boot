@@ -30,9 +30,8 @@ SELECT * FROM books WHERE author_id = 3     -- 4
 List<Author> findActiveAuthorsWithBooks();
 ```
 ou 
-
 ```java
-
+@EntityGraph(attributePaths = {"books"}) List<Author> findAllWithBooks();
 ```
 usando dessa forma vai ser só uma query, a saber:
 ```sql
