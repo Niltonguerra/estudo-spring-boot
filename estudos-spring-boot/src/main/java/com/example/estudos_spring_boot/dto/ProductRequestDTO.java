@@ -16,5 +16,9 @@ public record ProductRequestDTO(
 
         @NotBlank
         @SkuFormat
-        String sku
+        String sku,
+
+        @NotBlank
+        @NotNull(message = "categoria obrigatória")
+        String Category
 ) {}

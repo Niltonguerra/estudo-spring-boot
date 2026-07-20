@@ -6,4 +6,5 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: validate
+      ddl-auto: validate   # valida se a tabela bate com a entidade, mas não altera nada
+    show-sql: true
