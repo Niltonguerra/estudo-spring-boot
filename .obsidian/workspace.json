@@ -327,8 +327,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "95d1c939de81c5c0",
+  "active": "2a94081eb84fb2b5",
   "lastOpenFiles": [
+    "Novo(a) Documento de Texto.txt",
+    "Nova pasta",
     "estudos-spring-boot/src/main/resources/db/migration/V2__add_description_to_products.sql",
     "estudos-spring-boot/src/main/resources/db/migration/V1__create_products_table.sql",
     "estudos-spring-boot/src/main/resources/db/migration",
@@ -341,8 +343,6 @@
     "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/validation",
     "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/repository/ProductRepository.java",
     "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/repository",
-    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/exception/GlobalExceptionHandler.java",
-    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/exception",
     "README.md",
     "notas_bibliograficas/cursos_curtos/autodidata/autodidata.md",
     "notas_bibliograficas/cursos_curtos/autodidata/Core Web Vitals/part_1_levantamento_de_informacoes.md",
