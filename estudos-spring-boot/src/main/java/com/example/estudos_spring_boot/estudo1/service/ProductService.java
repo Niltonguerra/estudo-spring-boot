@@ -1,9 +1,9 @@
-package com.example.estudos_spring_boot.service;
+package com.example.estudos_spring_boot.estudo1.service;
 
-import com.example.estudos_spring_boot.dto.ProductRequestDTO;
-import com.example.estudos_spring_boot.dto.ProductResponseDTO;
-import com.example.estudos_spring_boot.entity.Product;
-import com.example.estudos_spring_boot.repository.ProductRepository;
+import com.example.estudos_spring_boot.estudo1.dto.ProductRequestDTO;
+import com.example.estudos_spring_boot.estudo1.dto.ProductResponseDTO;
+import com.example.estudos_spring_boot.estudo1.entity.Product;
+import com.example.estudos_spring_boot.estudo1.repository.ProductRepository;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;

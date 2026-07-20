@@ -1,4 +1,4 @@
-package com.example.estudos_spring_boot.entity;
+package com.example.estudos_spring_boot.estudo1.entity;
 
 import jakarta.persistence.*;
 import java.math.BigDecimal;

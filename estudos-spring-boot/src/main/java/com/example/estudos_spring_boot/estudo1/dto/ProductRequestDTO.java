@@ -1,6 +1,6 @@
-package com.example.estudos_spring_boot.dto;
+package com.example.estudos_spring_boot.estudo1.dto;
 
-import com.example.estudos_spring_boot.validation.SkuFormat;
+import com.example.estudos_spring_boot.estudo1.validation.SkuFormat;
 import jakarta.validation.constraints.*;
 import java.math.BigDecimal;
 

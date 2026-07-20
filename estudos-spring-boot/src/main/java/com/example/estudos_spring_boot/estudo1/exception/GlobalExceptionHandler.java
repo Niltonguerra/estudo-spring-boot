@@ -1,4 +1,4 @@
-package com.example.estudos_spring_boot.exception;
+package com.example.estudos_spring_boot.estudo1.exception;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

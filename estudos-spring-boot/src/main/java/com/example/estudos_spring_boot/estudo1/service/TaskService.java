@@ -1,7 +1,7 @@
-package com.example.estudos_spring_boot.service;
+package com.example.estudos_spring_boot.estudo1.service;
 
-import com.example.estudos_spring_boot.db.Task;
-import com.example.estudos_spring_boot.db.TaskRepository;
+import com.example.estudos_spring_boot.estudo1.db.Task;
+import com.example.estudos_spring_boot.estudo1.db.TaskRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

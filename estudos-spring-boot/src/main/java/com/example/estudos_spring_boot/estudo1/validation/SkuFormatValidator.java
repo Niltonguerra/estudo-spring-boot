@@ -1,4 +1,4 @@
-package com.example.estudos_spring_boot.validation;
+package com.example.estudos_spring_boot.estudo1.validation;
 
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;

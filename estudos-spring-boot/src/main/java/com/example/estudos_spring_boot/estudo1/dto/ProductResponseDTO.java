@@ -1,4 +1,4 @@
-package com.example.estudos_spring_boot.dto;
+package com.example.estudos_spring_boot.estudo1.dto;
 
 import java.math.BigDecimal;
 

@@ -1,4 +1,4 @@
-package com.example.estudos_spring_boot.db;
+package com.example.estudos_spring_boot.estudo1.db;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

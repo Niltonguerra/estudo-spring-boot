@@ -1,6 +1,6 @@
-package com.example.estudos_spring_boot.repository;
+package com.example.estudos_spring_boot.estudo1.repository;
 
-import com.example.estudos_spring_boot.entity.Product;
+import com.example.estudos_spring_boot.estudo1.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

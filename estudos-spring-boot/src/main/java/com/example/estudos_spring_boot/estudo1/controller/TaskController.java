@@ -1,15 +1,10 @@
-package com.example.estudos_spring_boot.controller;
+package com.example.estudos_spring_boot.estudo1.controller;
 
-import com.example.estudos_spring_boot.db.Task;
-import com.example.estudos_spring_boot.dto.ProductRequestDTO;
-import com.example.estudos_spring_boot.dto.ProductResponseDTO;
-import com.example.estudos_spring_boot.service.TaskService;
-import com.example.estudos_spring_boot.service.ProductService;
+import com.example.estudos_spring_boot.estudo1.db.Task;
+import com.example.estudos_spring_boot.estudo1.service.TaskService;
 
 import jakarta.validation.Valid;
 
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

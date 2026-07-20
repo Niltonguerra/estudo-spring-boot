@@ -1,4 +1,4 @@
-package com.example.estudos_spring_boot.db;
+package com.example.estudos_spring_boot.estudo1.db;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
