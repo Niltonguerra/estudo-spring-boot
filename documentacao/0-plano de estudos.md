@@ -15,7 +15,7 @@
 
 - Spring Data JPA com Query Methods e uma consulta `@Query`/JPQL✔️
 - Migrations com Flyway (versionadas, sem `ddl-auto: update`)✔️
-- Resolver um N+1 real (force o problema, depois corrija com fetch join ou `@EntityGraph`)
+- Resolver um N+1 real (force o problema, depois corrija com fetch join ou `@EntityGraph`)✔️
 - Definir DTOs de entrada/saída, nunca expor a entidade JPA✔️
 - Usar `@Transactional` em um fluxo que precise de propagação (ex: criar pedido + baixar estoque)
 

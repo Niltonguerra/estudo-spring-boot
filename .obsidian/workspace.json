@@ -332,11 +332,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "11f31ad92abe1459",
+  "active": "a71303f507d974b1",
   "lastOpenFiles": [
+    "documentacao/0-plano de estudos.md",
     "documentacao/2-API com integração ao sgbd mediante ao JPQL.md",
     "README.md",
-    "documentacao/0-plano de estudos.md",
     "Novo(a) Documento de Texto.txt",
     "Nova pasta",
     "estudos-spring-boot/src/main/resources/db/migration/V2__add_description_to_products.sql",
