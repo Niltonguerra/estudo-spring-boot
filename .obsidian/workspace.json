@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "documentacao/0-plano de estudos.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "0-plano de estudos"
             }
           }
         ]
@@ -334,8 +334,9 @@
   },
   "active": "11f31ad92abe1459",
   "lastOpenFiles": [
-    "documentacao/0-plano de estudos.md",
     "documentacao/2-API com integração ao sgbd mediante ao JPQL.md",
+    "README.md",
+    "documentacao/0-plano de estudos.md",
     "Novo(a) Documento de Texto.txt",
     "Nova pasta",
     "estudos-spring-boot/src/main/resources/db/migration/V2__add_description_to_products.sql",
@@ -347,7 +348,6 @@
     "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/validation/SkuFormat.java",
     "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/validation",
     "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/repository/ProductRepository.java",
-    "README.md",
     "notas_bibliograficas/cursos_curtos/autodidata/autodidata.md",
     "notas_bibliograficas/cursos_curtos/autodidata/Core Web Vitals/part_1_levantamento_de_informacoes.md",
     "notas_bibliograficas/cursos_curtos/autodidata/desing/Design atômico.md",
