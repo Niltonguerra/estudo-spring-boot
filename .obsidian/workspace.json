@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "documentacao/0-plano de estudos.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "0-plano de estudos"
+              "title": "README"
             }
           }
         ]
@@ -334,6 +334,7 @@
   },
   "active": "11f31ad92abe1459",
   "lastOpenFiles": [
+    "documentacao/0-plano de estudos.md",
     "documentacao/2-API com integração ao sgbd mediante ao JPQL.md",
     "Novo(a) Documento de Texto.txt",
     "Nova pasta",
@@ -341,7 +342,6 @@
     "estudos-spring-boot/src/main/resources/db/migration/V1__create_products_table.sql",
     "estudos-spring-boot/src/main/resources/db/migration",
     "estudos-spring-boot/src/main/resources/db",
-    "documentacao/0-plano de estudos.md",
     "documentacao/1-API REST CRUD básica.md",
     "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/validation/SkuFormatValidator.java",
     "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/validation/SkuFormat.java",
