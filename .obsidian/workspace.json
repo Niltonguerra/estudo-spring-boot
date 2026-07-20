@@ -124,6 +124,22 @@
           }
         ],
         "currentTab": 3
+      },
+      {
+        "id": "8690b15f251985d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95d1c939de81c5c0",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -282,26 +298,11 @@
             }
           }
         ]
-      },
-      {
-        "id": "35e355308cd48771",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "95d1c939de81c5c0",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 361.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -326,8 +327,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a71303f507d974b1",
+  "active": "95d1c939de81c5c0",
   "lastOpenFiles": [
+    "estudos-spring-boot/src/main/resources/db/migration/V2__add_description_to_products.sql",
+    "estudos-spring-boot/src/main/resources/db/migration/V1__create_products_table.sql",
+    "estudos-spring-boot/src/main/resources/db/migration",
+    "estudos-spring-boot/src/main/resources/db",
     "documentacao/0-plano de estudos.md",
     "documentacao/1-API REST CRUD básica.md",
     "documentacao/2-API com integração ao sgbd mediante ao JPQL.md",
@@ -338,9 +343,6 @@
     "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/repository",
     "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/exception/GlobalExceptionHandler.java",
     "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/exception",
-    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/entity/Product.java",
-    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/entity",
-    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/dto/ProductResponseDTO.java",
     "README.md",
     "notas_bibliograficas/cursos_curtos/autodidata/autodidata.md",
     "notas_bibliograficas/cursos_curtos/autodidata/Core Web Vitals/part_1_levantamento_de_informacoes.md",
@@ -363,7 +365,6 @@
     "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/1-Definição de Domínio do Projeto.md",
     "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/2-contextos delimitados(bounded context).md",
     "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/big picture.md",
-    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/mapa de dominio.md",
     "notas_bibliograficas/cursos_longos/FIAP/modulo2/img/Pasted image 20260629210721.png",
     "notas_bibliograficas/cursos_longos/FIAP/modulo2/img/Pasted image 20260629210654.png",
     "notas_bibliograficas/cursos_longos/FIAP/modulo2/img/Pasted image 20260629210442.png",
