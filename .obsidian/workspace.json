@@ -21,7 +21,13 @@
               "icon": "lucide-file",
               "title": "0-plano de estudos"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "f9b0bf02be96ffd8",
+        "type": "tabs",
+        "children": [
           {
             "id": "a71303f507d974b1",
             "type": "leaf",
@@ -37,8 +43,7 @@
               "title": "2-API com integração ao sgbd mediante ao JPQL"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -327,8 +332,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2a94081eb84fb2b5",
+  "active": "11f31ad92abe1459",
   "lastOpenFiles": [
+    "documentacao/2-API com integração ao sgbd mediante ao JPQL.md",
     "Novo(a) Documento de Texto.txt",
     "Nova pasta",
     "estudos-spring-boot/src/main/resources/db/migration/V2__add_description_to_products.sql",
@@ -337,12 +343,10 @@
     "estudos-spring-boot/src/main/resources/db",
     "documentacao/0-plano de estudos.md",
     "documentacao/1-API REST CRUD básica.md",
-    "documentacao/2-API com integração ao sgbd mediante ao JPQL.md",
     "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/validation/SkuFormatValidator.java",
     "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/validation/SkuFormat.java",
     "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/validation",
     "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/repository/ProductRepository.java",
-    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/repository",
     "README.md",
     "notas_bibliograficas/cursos_curtos/autodidata/autodidata.md",
     "notas_bibliograficas/cursos_curtos/autodidata/Core Web Vitals/part_1_levantamento_de_informacoes.md",
